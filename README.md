@@ -11,6 +11,7 @@ Use the installation instructions page 7 to install the
 PiDP11 software with the following exceptions:
 
 Instead of step 2 and 3 perform the following steps
+
 ...
   sudo apt update
   sudo apt upgrade
