@@ -27,6 +27,21 @@ Proceed with step 4 as described in the manual
 
 Please report problems to rricharz77@gmail.com
 
+This software has been modified to allow any user, not
+just pi, to install it, and to run on the 64-bit OS. It might
+therefore also be of interest for Raspberry 4 users running
+the 64-bit version of the OS.
+
+If you want to use it on the Raspberry Pi 4, just type
+
+    sudo /opt/pidp11/bin/setrpi4.sh
+
+bevore you proceed with step 4 of the installation
+instructions. The following command reverts back to the Raspberry
+Pi 5:
+
+    sudo /opt/pidp11/bin/setrpi5.sh
+
 Thanks to the following PiDP-11 users who helped with the
 modifications. Sorry if I forgot anybody, just let me know
 
