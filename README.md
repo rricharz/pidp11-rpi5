@@ -30,9 +30,5 @@ Please report problems to rricharz77@gmail.com
 Thanks to the following PiDP-11 users who helped with the
 modifications. Sorry if I forgot anybody, just let me know
 
-Clem Cole
-Ian Schofield
-isysxp@gmail.com
-John Anderson
-Mike Katz
-Steven A. Falco
+Clem Cole, Ian Schofield, isysxp@gmail.com, John Anderson,
+Mike Katz,Steven A. Falco
