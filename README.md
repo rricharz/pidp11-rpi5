@@ -17,7 +17,7 @@ Instead of step 2 and 3 perform the following steps
     sudo apt upgrade
     sudo apt install git
     git clone https://github.com/rricharz/pidp11-rpi5
-    cp -r pidp11-rpi5/.  /opt/pidp11
+    sudo cp -r pidp11-rpi5/.  /opt/pidp11
 
 
 Proceed with step 4 as described in the manual
