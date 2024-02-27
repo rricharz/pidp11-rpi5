@@ -1,0 +1,14 @@
+This software can be installed on a Raspberry Pi 4
+with 64-bit OS. But you need to be very careful. Make
+a backup copy of your SD card before attempting to
+install this software on the Raspberry Pi 4, and DO
+NOT REBOOT THE SYSTEM before you have executed the
+following commands. Yor SD card may not boot anymore.
+
+Type these commands after having followed the
+instructions in the manual, step 4 ff, and bevore
+you have rebooted the system:
+
+  cd /opt/pidp11
+  ../setrp4.sh
+  
