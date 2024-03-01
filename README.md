@@ -5,7 +5,7 @@ This is a copy of the official PiDP-11 software modified
 to run on the Raspberry Pi 5
 
 Download the PiDP-11 manual from this link:
-https://www3.ispnet.net/pidp11/PiDP-11%20Manual%20v0.2.odt
+http://pidp.net/pidp11/PiDP-11_Manual.odt
 
 Use the installation instructions on page 7 to install the
 PiDP11 software with the following exceptions:
@@ -30,6 +30,27 @@ This software has been modified to allow any user, not
 just pi, to install it, and to run on the 64-bit OS. It might
 therefore also be of interest for Raspberry 4 users running
 the 64-bit version of the OS.
+
+The following files are modified as compared to the original version:
+
+Fixed to work for any user, not just pi
+    /opt/pidp11/bin/makeball.sh
+    /opt/pidp11/bin/makesys.sh
+    /opt/pidp11/install/install.sh
+
+Fixed to work with 64 OS:
+    /opt/pidp11/src/02.3_simh/4.x+realcons/src/PDP11/pdp11_cpu.c
+    /opt/pidp11/src/02.3_simh/4.x+realcons/src/PDP11/pdp11_dl.c
+    /opt/pidp11/src/02.3_simh/4.x+realcons/src/PDP11/pdp11_io_lib.c
+    /opt/pidp11/src/02.3_simh/4.x+realcons/src/PDP11/pdp11_td.c
+    /opt/pidp11/src/02.3_simh/4.x+realcons/src/quickmake
+    /opt/pidp11/src/02.3_simh/4.x+realcons/src/scp.c
+    /opt/pidp11/src/02.3_simh/4.x+realcons/src/scp.h
+    /opt/pidp11/src/02.3_simh/4.x+realcons/src/sim_tmxr.c 
+    /opt/pidp11/src/11_pidp_server/pidp11/gpio.c
+    /opt/pidp11/src/11_pidp_server/pidp11/makefile
+    /opt/pidp11/src/11_pidp_server/scanswitch/Makefile
+    /opt/pidp11/src/11_pidp_server/scanswitch/scansw.c
 
 It is also possible to install this software on a Raspberry
 Pi 4 with 64-bit OS, but you need to follow
