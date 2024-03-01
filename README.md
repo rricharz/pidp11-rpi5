@@ -34,11 +34,13 @@ the 64-bit version of the OS.
 The following files are modified as compared to the original version:
 
 Fixed to work for any user, not just pi
+
     /opt/pidp11/bin/makeball.sh
     /opt/pidp11/bin/makesys.sh
     /opt/pidp11/install/install.sh
 
 Fixed to work with 64 OS:
+
     /opt/pidp11/src/02.3_simh/4.x+realcons/src/PDP11/pdp11_cpu.c
     /opt/pidp11/src/02.3_simh/4.x+realcons/src/PDP11/pdp11_dl.c
     /opt/pidp11/src/02.3_simh/4.x+realcons/src/PDP11/pdp11_io_lib.c
